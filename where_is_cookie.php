@@ -61,7 +61,7 @@ if($name==='admin' && $pass==='hogehogeahogehoge'){
 <section>
 <?php if(!$login): ?>
     <h2>LOGIN!</h2>
-    <form action="login.php" method="get">
+    <form action="where_is_cookie.php" method="get">
         name:<input name ="name" value=""><br>
         key:<input name ="key" value=""><br><br>
 	
